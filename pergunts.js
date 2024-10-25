@@ -1,7 +1,7 @@
 criaCartao(
 'Esportes',
 'Quantos gols Cristiano Ronaldo tem ?',
-'906'
+'907'
 )
 
 criaCartao(
@@ -11,19 +11,14 @@ criaCartao(
     )
 
     criaCartao(
-        'Categoria',
-        'Pergunta?',
-        'Resposta'
+        'Conhecimento Geral',
+        'Da onde veio a inveção do chueiro eletrico ?',
+        'Brasil',
         )
 
         criaCartao(
-            'Categoria',
-            'Pergunta?',
-            'Resposta'
+            'Esportes',
+            'Quantos gols Cristiano Ronaldo tem na champions league ?',
+            '141',
             )
-
-            criaCartao(
-                'Categoria',
-                'Pergunta?',
-                'Resposta'
-                )
+            
