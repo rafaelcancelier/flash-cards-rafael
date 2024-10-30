@@ -1,18 +1,18 @@
-function criaCartao ( Categoria, pergunta, resposta){
+function criaCartao ( Categoria, pergunta, resposta) {
    let container = document.getElementById( 'container');
    let catao = document.createElement('article');
-   criaCartao.clasName = 'cartao';
+   cartao.clasName = 'cartao';
 
    cartao.innerHTML = `
-     <div class="cartao__conteudo">
-                 <h3>${categoria}</h3>
-                 <div class="cartao__conteudo__pergunta">
-                        <p>$[pergunta]</p>
+              <div class="cartao__conteudo">
+                   <h3>${categoria}</h3>
+                   <div class="cartao__conteudo__pergunta">
+                        <p>${pergunta}</p>
                 </div>
                 <div class="cartao__conteudo__resposta">
                         <p>${resposta}</p>
-                    </div>
-     </div> 
+                 </div>
+              </div> 
    `
 
 let repostaEstaVisivel = false;
