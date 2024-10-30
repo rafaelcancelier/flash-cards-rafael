@@ -22,10 +22,7 @@ function viraCartao(){
   cartao.classlist.toggle('active', repostaEstaVisivel);
 }
 
-
-
-
-
+cartao.addEventListener('click', viraCartao)
 
    container.appendChild(catao);
 }
