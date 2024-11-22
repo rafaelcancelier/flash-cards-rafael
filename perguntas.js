@@ -12,7 +12,7 @@ criaCartao(
 
 criaCartao(
     'Conhecimento Geral',
-    'Da onde veio a inveção do chueiro eletrico ?',
+    'Da onde veio a inveção do chuveiro eletrico ?',
     'Brasil'
 )
 
